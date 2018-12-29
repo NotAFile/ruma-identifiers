@@ -5,6 +5,7 @@
 #![deny(missing_debug_implementations)]
 #![deny(missing_docs)]
 #![deny(warnings)]
+#![allow(proc_macro_derive_resolution_fallback)]
 
 #[macro_use]
 extern crate lazy_static;
